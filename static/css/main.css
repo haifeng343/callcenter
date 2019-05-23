@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+ul,ol,li{
+    list-style: none;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "microsoft yahei", arial, sans-serif;
+}
+a {
+    text-decoration: none
+}
+.el-collapse-item{
+    width: 90%;
+}
+.el-table th{
+    background-color: #F6F6F6 !important;
+    height: 53px !important;
+}
+.el-submenu__title{
+    background-color: #f0f0f0 !important;
+    color: #676767 !important;
+}
+.el-submenu__title:hover{
+    background-color: #018AD8 !important;
+    color: #ffffff;
+}
+.el-menu-item{
+    background-color: #ffffff !important;
+    border-left:1px solid #E7E7E7;
+    border-bottom:1px solid #E7E7E7;  
+}
+.el-menu-item.is-active{
+    background-color: #018AD8 !important;
+    color: #ffffff !important;
+}
+/* 日期选择‘至’ */
+.el-range-editor--small .el-range-separator {
+    line-height: 32px;
+}
+/* 弹窗 */
+.el-dialog__title{
+    color: #ffffff !important;
+}
+.el-dialog__wrapper{
+    z-index: 1000 !important;
+}
+.v-modal{
+    z-index: 999 !important;
+}
+.el-checkbox+.el-checkbox{
+    margin-left: 0 !important;
+}
+.nowrap{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.el-checkbox{
+    margin-right: 35px !important;
+}
+.iconImg{
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+  }
+.el-upload--picture-card{
+    line-height: 200px;
+}
+.el-message{
+    top: 250px;
+}
+.el-dialog__body form{
+    padding-left:1px;
+    padding-right:1px; 
+}
+.el-dialog__header{
+    padding-left: 7%;
+    background-color: #018AD8;
+}
+.el-dialog__headerbtn .el-dialog__close{
+    color: #ffffff !important;
+}
+.el-dialog__body {
+    padding: 30px  40px 5px 40px;
+}
+.dialog-certain{
+    width: 30%;
+    height: 50px;
+    margin-right: 10%;
+}
+.dialog-time-box{
+    text-align: center;
+    height: 13px;
+    line-height: 13px;
+}
+.dialog-time-box span{
+    color: #b5b5b5;
+    font-size: 12px;
+    height: 13px;
+    line-height: 13px;
+    display: inline-block;
+}
+.dialog-time-box span:first-child{
+    margin-right: 10px;
+}
+.el-dialog__footer{
+    padding-bottom:40px; 
+}
+.content-box {
+    position: absolute;
+    left: 283px;
+    right: 0;
+    top: 45px;
+    bottom: 0;
+    padding-bottom: 30px;
+    -webkit-transition: left .3s ease-in-out;
+    transition: left .3s ease-in-out;
+    background: #ffffff;
+}
+.flex{
+    display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */  
+    display: -moz-box; /* Firefox 17- */  
+    display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */  
+    display: -moz-flex; /* Firefox 18+ */  
+    display: -ms-flexbox; /* IE 10 */  
+    display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+}
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+  }
+  .handle-input{
+    width: 180px !important;
+  }
+  .avatar {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+.el-button--text span{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content {
+    width: auto;
+    height: 100%;
+    padding-top: 10px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.content-collapse {
+    left: 65px;
+}
+
+.container {
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.crumbs {
+    margin: 10px 0;
+}
+
+.pagination {
+    margin: 20px 0;
+    text-align: right;
+}
+
+.plugins-tips {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.el-button+.el-tooltip {
+    margin-left: 10px;
+}
+
+.el-table tr:hover {
+    background: #f6faff;
+}
+
+.mgb20 {
+    margin-bottom: 20px;
+}
+
+.move-enter-active,
+.move-leave-active {
+    transition: opacity .5s;
+}
+
+.move-enter,
+.move-leave {
+    opacity: 0;
+}
+
+/*BaseForm*/
+
+.form-box {
+    width: 600px;
+}
+
+.form-box .line {
+    text-align: center;
+}
+
+.el-time-panel__content::after,
+.el-time-panel__content::before {
+    margin-top: -7px;
+}
+
+.el-time-spinner__wrapper .el-scrollbar__wrap:not(.el-scrollbar__wrap--hidden-default) {
+    padding-bottom: 0;
+}
+
+/*Upload*/
+
+.pure-button {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.g-core-image-corp-container .info-aside {
+    height: 45px;
+}
+
+.el-upload--text {
+    background-color: #fff;
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 180px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.el-upload--text .el-icon-upload {
+    font-size: 67px;
+    color: #97a8be;
+    margin: 40px 0 16px;
+    line-height: 50px;
+}
+
+.el-upload--text {
+    color: #97a8be;
+    font-size: 14px;
+    text-align: center;
+}
+
+.el-upload--text em {
+    font-style: normal;
+}
+.el-input--small .el-input__inner {
+    height: 38px;
+    line-height: 38px;
+}
+.el-range-editor--small.el-input__inner {
+    height: 38px;
+}
+/*VueEditor*/
+.container {
+    padding: 30px 30px 0 0;
+    background: #fff;
+    border: none;
+}
+.el-switch__label--left ,.el-switch__label--right{
+    margin-right: 0;
+    margin-left:0;
+}
+.ql-container {
+    min-height: 400px;
+}
+
+.ql-snow .ql-tooltip {
+    transform: translateX(117.5px) translateY(10px) !important;
+}
+
+.editor-btn {
+    margin-top: 20px;
+}
+
+/*markdown*/
+
+.v-note-wrapper .v-note-panel {
+    min-height: 500px;
+}
